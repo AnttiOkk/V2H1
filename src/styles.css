@@ -6,13 +6,13 @@ table {
 
 td {
   background-color: white;
-  border: 1px solid balck;
+  border: 1px solid black;
   font-size: 30px;
   font-family: helvetica;
   width: 59px;
   height: 59px;
   text-align: center;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 #myProgress {
