@@ -10,7 +10,6 @@ function init() {
   var board = document.createElement("table");
   board.setAttribute("border", 1);
   board.setAttribute("cellspacing", 0);
-
   var identifier = 1;
   for (var i = 0; i < N_SIZE; i++) {
     var row = document.createElement("tr");
