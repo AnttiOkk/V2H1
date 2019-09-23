@@ -16,10 +16,6 @@ function init() {
     board.appendChild(row);
     for (var j = 0; j < N_SIZE; j++) {
       var cell = document.createElement("td");
-      cell.setAttribute("height", 59);
-      cell.setAttribute("width", 59);
-      cell.setAttribute("align", "center");
-      cell.setAttribute("valign", "center");
       cell.classList.add("col" + j, "row" + i);
       if (i === j) {
         cell.classList.add("diagonal0");

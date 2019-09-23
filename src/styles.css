@@ -1,14 +1,18 @@
 table {
   border-collapse: collapse;
-  background-color: white;
-  border: 1px solid balck;
-  font-size: 30px;
-  font: helvetica;
 }
 .grid_container {
 }
 
 td {
+  background-color: white;
+  border: 1px solid balck;
+  font-size: 30px;
+  font-family: helvetica;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: center;
 }
 
 #myProgress {
