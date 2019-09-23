@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+}
+.grid_container {
+}
+
+td {
+  background-color: white;
+  border: 1px solid balck;
+  font-size: 30px;
+  font: helvetica;
+}
+
+#myProgress {
+  width: 8.4cm;
+  background-color: grey;
+}
+
+#myBar {
+  width: 0;
+  height: 30px;
+  background-color: rgb(124, 252, 0);
+}
